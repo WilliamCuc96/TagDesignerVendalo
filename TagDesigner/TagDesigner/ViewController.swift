@@ -9,10 +9,13 @@
 import UIKit
 
 class ViewController: BaseViewController {
+    @IBOutlet weak var add: UIButton!
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        self.add.layer.cornerRadius = self.add.frame.size.width/2
+        self.add.clipsToBounds = true
         self.addSlideMenuButton()
     }
 
