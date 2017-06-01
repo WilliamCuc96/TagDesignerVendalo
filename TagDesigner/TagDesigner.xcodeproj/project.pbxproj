@@ -1,0 +1,547 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		79F878B31EE0648500516CD7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79F878B21EE0648500516CD7 /* AppDelegate.swift */; };
+		79F878B51EE0648500516CD7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79F878B41EE0648500516CD7 /* ViewController.swift */; };
+		79F878B81EE0648500516CD7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79F878B61EE0648500516CD7 /* Main.storyboard */; };
+		79F878BA1EE0648500516CD7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79F878B91EE0648500516CD7 /* Assets.xcassets */; };
+		79F878BD1EE0648500516CD7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79F878BB1EE0648500516CD7 /* LaunchScreen.storyboard */; };
+		79F878C81EE0648500516CD7 /* TagDesignerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79F878C71EE0648500516CD7 /* TagDesignerTests.swift */; };
+		79F878D31EE0648500516CD7 /* TagDesignerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79F878D21EE0648500516CD7 /* TagDesignerUITests.swift */; };
+		79F878E21EE0676C00516CD7 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79F878E01EE0676C00516CD7 /* BaseViewController.swift */; };
+		79F878E31EE0676C00516CD7 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79F878E11EE0676C00516CD7 /* MenuViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		79F878C41EE0648500516CD7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 79F878A71EE0648500516CD7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79F878AE1EE0648500516CD7;
+			remoteInfo = TagDesigner;
+		};
+		79F878CF1EE0648500516CD7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 79F878A71EE0648500516CD7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79F878AE1EE0648500516CD7;
+			remoteInfo = TagDesigner;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		79F878AF1EE0648500516CD7 /* TagDesigner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TagDesigner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		79F878B21EE0648500516CD7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		79F878B41EE0648500516CD7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		79F878B71EE0648500516CD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		79F878B91EE0648500516CD7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		79F878BC1EE0648500516CD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		79F878BE1EE0648500516CD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79F878C31EE0648500516CD7 /* TagDesignerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TagDesignerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		79F878C71EE0648500516CD7 /* TagDesignerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagDesignerTests.swift; sourceTree = "<group>"; };
+		79F878C91EE0648500516CD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79F878CE1EE0648500516CD7 /* TagDesignerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TagDesignerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		79F878D21EE0648500516CD7 /* TagDesignerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagDesignerUITests.swift; sourceTree = "<group>"; };
+		79F878D41EE0648500516CD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79F878E01EE0676C00516CD7 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		79F878E11EE0676C00516CD7 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		79F878AC1EE0648500516CD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79F878C01EE0648500516CD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79F878CB1EE0648500516CD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		79F878A61EE0648500516CD7 = {
+			isa = PBXGroup;
+			children = (
+				79F878B11EE0648500516CD7 /* TagDesigner */,
+				79F878C61EE0648500516CD7 /* TagDesignerTests */,
+				79F878D11EE0648500516CD7 /* TagDesignerUITests */,
+				79F878B01EE0648500516CD7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		79F878B01EE0648500516CD7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				79F878AF1EE0648500516CD7 /* TagDesigner.app */,
+				79F878C31EE0648500516CD7 /* TagDesignerTests.xctest */,
+				79F878CE1EE0648500516CD7 /* TagDesignerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		79F878B11EE0648500516CD7 /* TagDesigner */ = {
+			isa = PBXGroup;
+			children = (
+				79F878B21EE0648500516CD7 /* AppDelegate.swift */,
+				79F878B41EE0648500516CD7 /* ViewController.swift */,
+				79F878E01EE0676C00516CD7 /* BaseViewController.swift */,
+				79F878E11EE0676C00516CD7 /* MenuViewController.swift */,
+				79F878B61EE0648500516CD7 /* Main.storyboard */,
+				79F878B91EE0648500516CD7 /* Assets.xcassets */,
+				79F878BB1EE0648500516CD7 /* LaunchScreen.storyboard */,
+				79F878BE1EE0648500516CD7 /* Info.plist */,
+			);
+			path = TagDesigner;
+			sourceTree = "<group>";
+		};
+		79F878C61EE0648500516CD7 /* TagDesignerTests */ = {
+			isa = PBXGroup;
+			children = (
+				79F878C71EE0648500516CD7 /* TagDesignerTests.swift */,
+				79F878C91EE0648500516CD7 /* Info.plist */,
+			);
+			path = TagDesignerTests;
+			sourceTree = "<group>";
+		};
+		79F878D11EE0648500516CD7 /* TagDesignerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				79F878D21EE0648500516CD7 /* TagDesignerUITests.swift */,
+				79F878D41EE0648500516CD7 /* Info.plist */,
+			);
+			path = TagDesignerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		79F878AE1EE0648500516CD7 /* TagDesigner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79F878D71EE0648500516CD7 /* Build configuration list for PBXNativeTarget "TagDesigner" */;
+			buildPhases = (
+				79F878AB1EE0648500516CD7 /* Sources */,
+				79F878AC1EE0648500516CD7 /* Frameworks */,
+				79F878AD1EE0648500516CD7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TagDesigner;
+			productName = TagDesigner;
+			productReference = 79F878AF1EE0648500516CD7 /* TagDesigner.app */;
+			productType = "com.apple.product-type.application";
+		};
+		79F878C21EE0648500516CD7 /* TagDesignerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79F878DA1EE0648500516CD7 /* Build configuration list for PBXNativeTarget "TagDesignerTests" */;
+			buildPhases = (
+				79F878BF1EE0648500516CD7 /* Sources */,
+				79F878C01EE0648500516CD7 /* Frameworks */,
+				79F878C11EE0648500516CD7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				79F878C51EE0648500516CD7 /* PBXTargetDependency */,
+			);
+			name = TagDesignerTests;
+			productName = TagDesignerTests;
+			productReference = 79F878C31EE0648500516CD7 /* TagDesignerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		79F878CD1EE0648500516CD7 /* TagDesignerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79F878DD1EE0648500516CD7 /* Build configuration list for PBXNativeTarget "TagDesignerUITests" */;
+			buildPhases = (
+				79F878CA1EE0648500516CD7 /* Sources */,
+				79F878CB1EE0648500516CD7 /* Frameworks */,
+				79F878CC1EE0648500516CD7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				79F878D01EE0648500516CD7 /* PBXTargetDependency */,
+			);
+			name = TagDesignerUITests;
+			productName = TagDesignerUITests;
+			productReference = 79F878CE1EE0648500516CD7 /* TagDesignerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		79F878A71EE0648500516CD7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "William Cuc";
+				TargetAttributes = {
+					79F878AE1EE0648500516CD7 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = PCSQWGA23G;
+						ProvisioningStyle = Automatic;
+					};
+					79F878C21EE0648500516CD7 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = PCSQWGA23G;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 79F878AE1EE0648500516CD7;
+					};
+					79F878CD1EE0648500516CD7 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = PCSQWGA23G;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 79F878AE1EE0648500516CD7;
+					};
+				};
+			};
+			buildConfigurationList = 79F878AA1EE0648500516CD7 /* Build configuration list for PBXProject "TagDesigner" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 79F878A61EE0648500516CD7;
+			productRefGroup = 79F878B01EE0648500516CD7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				79F878AE1EE0648500516CD7 /* TagDesigner */,
+				79F878C21EE0648500516CD7 /* TagDesignerTests */,
+				79F878CD1EE0648500516CD7 /* TagDesignerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		79F878AD1EE0648500516CD7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79F878BD1EE0648500516CD7 /* LaunchScreen.storyboard in Resources */,
+				79F878BA1EE0648500516CD7 /* Assets.xcassets in Resources */,
+				79F878B81EE0648500516CD7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79F878C11EE0648500516CD7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79F878CC1EE0648500516CD7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		79F878AB1EE0648500516CD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79F878B51EE0648500516CD7 /* ViewController.swift in Sources */,
+				79F878B31EE0648500516CD7 /* AppDelegate.swift in Sources */,
+				79F878E21EE0676C00516CD7 /* BaseViewController.swift in Sources */,
+				79F878E31EE0676C00516CD7 /* MenuViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79F878BF1EE0648500516CD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79F878C81EE0648500516CD7 /* TagDesignerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79F878CA1EE0648500516CD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79F878D31EE0648500516CD7 /* TagDesignerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		79F878C51EE0648500516CD7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 79F878AE1EE0648500516CD7 /* TagDesigner */;
+			targetProxy = 79F878C41EE0648500516CD7 /* PBXContainerItemProxy */;
+		};
+		79F878D01EE0648500516CD7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 79F878AE1EE0648500516CD7 /* TagDesigner */;
+			targetProxy = 79F878CF1EE0648500516CD7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		79F878B61EE0648500516CD7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79F878B71EE0648500516CD7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		79F878BB1EE0648500516CD7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79F878BC1EE0648500516CD7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		79F878D51EE0648500516CD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		79F878D61EE0648500516CD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		79F878D81EE0648500516CD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = PCSQWGA23G;
+				INFOPLIST_FILE = TagDesigner/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TitonSoft.TagDesigner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		79F878D91EE0648500516CD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = PCSQWGA23G;
+				INFOPLIST_FILE = TagDesigner/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TitonSoft.TagDesigner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		79F878DB1EE0648500516CD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = PCSQWGA23G;
+				INFOPLIST_FILE = TagDesignerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TitonSoft.TagDesignerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TagDesigner.app/TagDesigner";
+			};
+			name = Debug;
+		};
+		79F878DC1EE0648500516CD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = PCSQWGA23G;
+				INFOPLIST_FILE = TagDesignerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TitonSoft.TagDesignerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TagDesigner.app/TagDesigner";
+			};
+			name = Release;
+		};
+		79F878DE1EE0648500516CD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = PCSQWGA23G;
+				INFOPLIST_FILE = TagDesignerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TitonSoft.TagDesignerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = TagDesigner;
+			};
+			name = Debug;
+		};
+		79F878DF1EE0648500516CD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = PCSQWGA23G;
+				INFOPLIST_FILE = TagDesignerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TitonSoft.TagDesignerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = TagDesigner;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		79F878AA1EE0648500516CD7 /* Build configuration list for PBXProject "TagDesigner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79F878D51EE0648500516CD7 /* Debug */,
+				79F878D61EE0648500516CD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79F878D71EE0648500516CD7 /* Build configuration list for PBXNativeTarget "TagDesigner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79F878D81EE0648500516CD7 /* Debug */,
+				79F878D91EE0648500516CD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		79F878DA1EE0648500516CD7 /* Build configuration list for PBXNativeTarget "TagDesignerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79F878DB1EE0648500516CD7 /* Debug */,
+				79F878DC1EE0648500516CD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		79F878DD1EE0648500516CD7 /* Build configuration list for PBXNativeTarget "TagDesignerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79F878DE1EE0648500516CD7 /* Debug */,
+				79F878DF1EE0648500516CD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 79F878A71EE0648500516CD7 /* Project object */;
+}
