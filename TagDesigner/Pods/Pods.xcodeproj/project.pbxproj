@@ -1,0 +1,938 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		040D874AEAEC4E0A91B1C75952D01EC5 /* Canvas.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E33E03C1E1AFCA6D52C90B62E39C5DA /* Canvas.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		06562E5C2B391C488651DB7C52B213EA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		0DD7213BAF6205B2E72800AF0357603D /* CSAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = E8A326087CFCD888C0213DBD68A49D0F /* CSAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		146630EFBC4D2231A50CB9F11A337EC6 /* UINavigationBar+TCCustomFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 79ADA6F263E4BD552BC6999FB4F8C03D /* UINavigationBar+TCCustomFont.m */; };
+		1ED8CB9123077805739DDD87286C23BF /* UITextField+PlaceholderColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 84535F434D576F73C7801B2AD73C4FAD /* UITextField+PlaceholderColor.m */; };
+		2DCC4EF32A2B0B418825960070248BDA /* Pods-TagDesigner-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F6E42F4834B8E696328A864D3065EA1 /* Pods-TagDesigner-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		323BB1666C0617E8C5D8F89D2675300A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		3A5D78EF2A1342D0396C1C4AF0451491 /* CSAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 99959751C2612740ACCA1B3E11234850 /* CSAnimationView.m */; };
+		3A5FCCCB61472AD8DFFA13B906E5CB17 /* UITextView+TCCustomFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CFF4490B3EE7BBC1AED94A8503D2575 /* UITextView+TCCustomFont.m */; };
+		4C778137BBA41922618A1EA457F691D1 /* CSBlurView.h in Headers */ = {isa = PBXBuildFile; fileRef = 5013096A89CE092D9E04EDEBDA16951F /* CSBlurView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4EF787F1D567516F433EFB2462F43801 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		54B06073BC396D015044362E5C58166F /* UITextField+TCCustomFont.h in Headers */ = {isa = PBXBuildFile; fileRef = 19C5BD029D3552E153C6B4316F1AAC78 /* UITextField+TCCustomFont.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5CC3111F76F6E705205BB03C7ED4E248 /* UIButton+TCCustomFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCDE261C2ACF324C356FDEDE0B2D651 /* UIButton+TCCustomFont.m */; };
+		6549C61A563E8A6EA19294978B65CDE4 /* CSNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1172A05D8D2438B15DA8426567768955 /* CSNavigationController.m */; };
+		722043CDFAD463446C6662F706DFB995 /* UITextField+TCCustomFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BB56C22590CF2F50B7523C39DE92968 /* UITextField+TCCustomFont.m */; };
+		8A8F09022E5754C0164B58517B5C53C5 /* Pods-TagDesignerUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BE1D5606E8C810ABD07F29FF38F15EC /* Pods-TagDesignerUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8E281073E0AD0376E80E0F3CBC7A323C /* Pods-TagDesigner-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C37591034BD66C7CC33675E35E604E /* Pods-TagDesigner-dummy.m */; };
+		978C272B9C17B0F24716D87600778ACA /* Pods-TagDesignerTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 049A83BD7D32A59932E075746683AD7A /* Pods-TagDesignerTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C5C1641E652073320C3AF57420D76D2 /* UILabel+TCCustomFont.h in Headers */ = {isa = PBXBuildFile; fileRef = 3142F4D39674D88D4451627EF922B97B /* UILabel+TCCustomFont.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B2D3C435370C60A1018320FE3ADEEBB6 /* Canvas-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F119C7CA91B594631637EDC3C3B6505C /* Canvas-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B39819FF29E15C9E4636B09B4627D46C /* CSBlurView.m in Sources */ = {isa = PBXBuildFile; fileRef = 60CC9A45167423E712EAC4FEEFCAD2E6 /* CSBlurView.m */; };
+		B6358E1AED1AD2949B366E7EBE95E139 /* Canvas-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FBB0C29A33F168953A9875EFB69288ED /* Canvas-dummy.m */; };
+		B97E4D9EF786C37745533D53E461EEFE /* CSNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AFE6BA08376482CFBD7DED11ED094D1 /* CSNavigationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BEA3281085FA13AF921E88B84ED5D3F8 /* UILabel+TCCustomFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E5C89AD2B6DD0D50AD54428B13AD794 /* UILabel+TCCustomFont.m */; };
+		BFAB93886557B67D784132939E696B89 /* Pods-TagDesignerTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DE32C7158E0B7CE29745D9D88F6943C /* Pods-TagDesignerTests-dummy.m */; };
+		C4E5C2A85C6A0DA0FD38E3416AAA8C21 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		CF3FEFAD0F17B31334D7890ECD2B8DFE /* UITextField+PlaceholderColor.h in Headers */ = {isa = PBXBuildFile; fileRef = A3EAEC1BA003A6B423F5FF357C83E1F2 /* UITextField+PlaceholderColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D5B84B208FBA94896DCB2F353F10E105 /* UITextView+TCCustomFont.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DD24AD2C9573668CA8E4DDE3F3AD754 /* UITextView+TCCustomFont.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D8A033E57E90F3646D39E7BC566F2067 /* CSAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FC89F1574C47348BE2F1527672F45D2 /* CSAnimation.m */; };
+		DCCCA02E94D84C1C07F9F17D90C3EFD8 /* UINavigationBar+TCCustomFont.h in Headers */ = {isa = PBXBuildFile; fileRef = 91AB0644D642FEB62CF83732D94B02D3 /* UINavigationBar+TCCustomFont.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E088F64BC2C60DCB23A5C84889A66442 /* UIButton+TCCustomFont.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C1849EE6BA43C2AD1A005BA493A979E /* UIButton+TCCustomFont.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE7BD8C3D16E41F91681CADA3A913797 /* Pods-TagDesignerUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 70CCE0318D570075B8C436502FB617E5 /* Pods-TagDesignerUITests-dummy.m */; };
+		F7251150A6F3BC6662A1548688226AB3 /* CSAnimationView.h in Headers */ = {isa = PBXBuildFile; fileRef = 91EB2ADE1AE5C643F51DC3359E73DEAC /* CSAnimationView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ACB1A2BFD6CB92BD33F315F2BCBF409F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F6497E6E7D485D7D0D7E0CD8E84BFCD4;
+			remoteInfo = Canvas;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		036C328B82A5D54B8E3E0BC6FA4B7D49 /* Pods-TagDesignerUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TagDesignerUITests-resources.sh"; sourceTree = "<group>"; };
+		03AD41BA8C7D9115FECDA2D7C418070F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		049A83BD7D32A59932E075746683AD7A /* Pods-TagDesignerTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TagDesignerTests-umbrella.h"; sourceTree = "<group>"; };
+		0BB56C22590CF2F50B7523C39DE92968 /* UITextField+TCCustomFont.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITextField+TCCustomFont.m"; path = "CanvasLibrary/UITextField+TCCustomFont.m"; sourceTree = "<group>"; };
+		0D45E957C911D0AA22C762FF1AE5C4E8 /* Pods_TagDesignerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TagDesignerUITests.framework; path = "Pods-TagDesignerUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1172A05D8D2438B15DA8426567768955 /* CSNavigationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CSNavigationController.m; path = CanvasLibrary/CSNavigationController.m; sourceTree = "<group>"; };
+		19C5BD029D3552E153C6B4316F1AAC78 /* UITextField+TCCustomFont.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITextField+TCCustomFont.h"; path = "CanvasLibrary/UITextField+TCCustomFont.h"; sourceTree = "<group>"; };
+		2DE32C7158E0B7CE29745D9D88F6943C /* Pods-TagDesignerTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TagDesignerTests-dummy.m"; sourceTree = "<group>"; };
+		30F05E7F0E26A046B33C0833FD1FFBBF /* Pods-TagDesignerTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TagDesignerTests-resources.sh"; sourceTree = "<group>"; };
+		3142F4D39674D88D4451627EF922B97B /* UILabel+TCCustomFont.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UILabel+TCCustomFont.h"; path = "CanvasLibrary/UILabel+TCCustomFont.h"; sourceTree = "<group>"; };
+		3732244F9A8497BF1B572EF38F3BD8D0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38BCD1BC4087448867EADB039EB59842 /* Pods-TagDesignerTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TagDesignerTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		3DD24AD2C9573668CA8E4DDE3F3AD754 /* UITextView+TCCustomFont.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITextView+TCCustomFont.h"; path = "CanvasLibrary/UITextView+TCCustomFont.h"; sourceTree = "<group>"; };
+		4BE1D5606E8C810ABD07F29FF38F15EC /* Pods-TagDesignerUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TagDesignerUITests-umbrella.h"; sourceTree = "<group>"; };
+		4DCDE261C2ACF324C356FDEDE0B2D651 /* UIButton+TCCustomFont.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+TCCustomFont.m"; path = "CanvasLibrary/UIButton+TCCustomFont.m"; sourceTree = "<group>"; };
+		4E33E03C1E1AFCA6D52C90B62E39C5DA /* Canvas.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Canvas.h; path = CanvasLibrary/Canvas.h; sourceTree = "<group>"; };
+		5013096A89CE092D9E04EDEBDA16951F /* CSBlurView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSBlurView.h; path = CanvasLibrary/CSBlurView.h; sourceTree = "<group>"; };
+		60CC9A45167423E712EAC4FEEFCAD2E6 /* CSBlurView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CSBlurView.m; path = CanvasLibrary/CSBlurView.m; sourceTree = "<group>"; };
+		614C91C0C12794A1EB9FE7973A59412B /* Pods-TagDesignerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TagDesignerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		64C1F07915293FE950926744C119626B /* Pods-TagDesigner.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-TagDesigner.modulemap"; sourceTree = "<group>"; };
+		65BE6CCE859368AD58F2CE59CE248857 /* Pods-TagDesignerUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TagDesignerUITests-frameworks.sh"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6C1849EE6BA43C2AD1A005BA493A979E /* UIButton+TCCustomFont.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+TCCustomFont.h"; path = "CanvasLibrary/UIButton+TCCustomFont.h"; sourceTree = "<group>"; };
+		70CCE0318D570075B8C436502FB617E5 /* Pods-TagDesignerUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TagDesignerUITests-dummy.m"; sourceTree = "<group>"; };
+		76D1A59C781153D6DED66709A17B9492 /* Pods-TagDesigner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TagDesigner.release.xcconfig"; sourceTree = "<group>"; };
+		79ADA6F263E4BD552BC6999FB4F8C03D /* UINavigationBar+TCCustomFont.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UINavigationBar+TCCustomFont.m"; path = "CanvasLibrary/UINavigationBar+TCCustomFont.m"; sourceTree = "<group>"; };
+		7CBB22132164A49A7BE3AD85941E4C9D /* Pods-TagDesigner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TagDesigner.debug.xcconfig"; sourceTree = "<group>"; };
+		7FC89F1574C47348BE2F1527672F45D2 /* CSAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CSAnimation.m; path = CanvasLibrary/CSAnimation.m; sourceTree = "<group>"; };
+		80332446781229EDD4919BA157C9C5EA /* Pods-TagDesignerTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-TagDesignerTests.modulemap"; sourceTree = "<group>"; };
+		8190828167463F19B83FFFC5A8134B01 /* Pods_TagDesignerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TagDesignerTests.framework; path = "Pods-TagDesignerTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		83A4EAA77834FBE4242E0BB0A67ED60E /* Pods-TagDesignerUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-TagDesignerUITests.modulemap"; sourceTree = "<group>"; };
+		83E1A4AE7CE853CCC9D1804F95436FEE /* Pods-TagDesignerTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TagDesignerTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		84535F434D576F73C7801B2AD73C4FAD /* UITextField+PlaceholderColor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITextField+PlaceholderColor.m"; path = "CanvasLibrary/UITextField+PlaceholderColor.m"; sourceTree = "<group>"; };
+		850E64070C811E1C97C844FDF7E190BD /* Pods-TagDesignerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TagDesignerTests.release.xcconfig"; sourceTree = "<group>"; };
+		857960A75E9536A2C15C85C06131433E /* Canvas-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Canvas-prefix.pch"; sourceTree = "<group>"; };
+		8D85901B60629D7F8E78EF37882024AD /* Canvas.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Canvas.xcconfig; sourceTree = "<group>"; };
+		8E5C89AD2B6DD0D50AD54428B13AD794 /* UILabel+TCCustomFont.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UILabel+TCCustomFont.m"; path = "CanvasLibrary/UILabel+TCCustomFont.m"; sourceTree = "<group>"; };
+		91AB0644D642FEB62CF83732D94B02D3 /* UINavigationBar+TCCustomFont.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UINavigationBar+TCCustomFont.h"; path = "CanvasLibrary/UINavigationBar+TCCustomFont.h"; sourceTree = "<group>"; };
+		91EB2ADE1AE5C643F51DC3359E73DEAC /* CSAnimationView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSAnimationView.h; path = CanvasLibrary/CSAnimationView.h; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		99959751C2612740ACCA1B3E11234850 /* CSAnimationView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CSAnimationView.m; path = CanvasLibrary/CSAnimationView.m; sourceTree = "<group>"; };
+		9AFE6BA08376482CFBD7DED11ED094D1 /* CSNavigationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSNavigationController.h; path = CanvasLibrary/CSNavigationController.h; sourceTree = "<group>"; };
+		9CFF4490B3EE7BBC1AED94A8503D2575 /* UITextView+TCCustomFont.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITextView+TCCustomFont.m"; path = "CanvasLibrary/UITextView+TCCustomFont.m"; sourceTree = "<group>"; };
+		9F6E42F4834B8E696328A864D3065EA1 /* Pods-TagDesigner-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TagDesigner-umbrella.h"; sourceTree = "<group>"; };
+		A3EAEC1BA003A6B423F5FF357C83E1F2 /* UITextField+PlaceholderColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITextField+PlaceholderColor.h"; path = "CanvasLibrary/UITextField+PlaceholderColor.h"; sourceTree = "<group>"; };
+		B6543427BC4097FE6C1C7B46315DB2AE /* Pods-TagDesigner-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TagDesigner-acknowledgements.plist"; sourceTree = "<group>"; };
+		C13EB3B1A413299139F26F533A4ECD33 /* Pods-TagDesignerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TagDesignerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C25BBCB1E1DA388137368B46162DAF94 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2818325AC6EB327002EECF241760CA3 /* Pods-TagDesignerUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TagDesignerUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C7AE4BE8F65606A97EA6279F70600D58 /* Pods-TagDesigner-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TagDesigner-resources.sh"; sourceTree = "<group>"; };
+		D4A27578BD21A146FB981C9F2751F232 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9B305CCA5279415004C64B1BEB87EC8 /* Pods-TagDesignerUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TagDesignerUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		DC14CFEB43DAD864FC0E054622F69C02 /* Pods-TagDesignerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TagDesignerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DE6AF271D484CBF4CCFD111704F741BE /* Pods-TagDesigner-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TagDesigner-frameworks.sh"; sourceTree = "<group>"; };
+		E0389F608B9FEEE3CADA46E551F4AAC6 /* Pods_TagDesigner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TagDesigner.framework; path = "Pods-TagDesigner.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2C37591034BD66C7CC33675E35E604E /* Pods-TagDesigner-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TagDesigner-dummy.m"; sourceTree = "<group>"; };
+		E8A326087CFCD888C0213DBD68A49D0F /* CSAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSAnimation.h; path = CanvasLibrary/CSAnimation.h; sourceTree = "<group>"; };
+		F119C7CA91B594631637EDC3C3B6505C /* Canvas-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Canvas-umbrella.h"; sourceTree = "<group>"; };
+		F6F6DC04F519CE37CB41727774E3C0C0 /* Pods-TagDesigner-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TagDesigner-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F716B366F73E34A45C1E7FA6C57E8D49 /* Canvas.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Canvas.framework; path = Canvas.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F87B018E7D473A0C8CFC365ECADDF1E4 /* Canvas.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Canvas.modulemap; sourceTree = "<group>"; };
+		FBB0C29A33F168953A9875EFB69288ED /* Canvas-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Canvas-dummy.m"; sourceTree = "<group>"; };
+		FEA897209E2D972F29B237DF3A1225DD /* Pods-TagDesignerTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TagDesignerTests-frameworks.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		21F3B14F7E9F94A8DA3933BE1EB4100D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				323BB1666C0617E8C5D8F89D2675300A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		294AA2F075778E3C5DFF754BE99D9A63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06562E5C2B391C488651DB7C52B213EA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92C1FB8E4E5A983BA35950D4C3437D78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4E5C2A85C6A0DA0FD38E3416AAA8C21 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEA23D4A06ACE11BF9A43711D4934BB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EF787F1D567516F433EFB2462F43801 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1CA89213BFC09E3BA08DB998965F2724 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F87B018E7D473A0C8CFC365ECADDF1E4 /* Canvas.modulemap */,
+				8D85901B60629D7F8E78EF37882024AD /* Canvas.xcconfig */,
+				FBB0C29A33F168953A9875EFB69288ED /* Canvas-dummy.m */,
+				857960A75E9536A2C15C85C06131433E /* Canvas-prefix.pch */,
+				F119C7CA91B594631637EDC3C3B6505C /* Canvas-umbrella.h */,
+				03AD41BA8C7D9115FECDA2D7C418070F /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Canvas";
+			sourceTree = "<group>";
+		};
+		35821154BDB1D0CD189611A6D5D33C74 /* Pods-TagDesignerTests */ = {
+			isa = PBXGroup;
+			children = (
+				3732244F9A8497BF1B572EF38F3BD8D0 /* Info.plist */,
+				80332446781229EDD4919BA157C9C5EA /* Pods-TagDesignerTests.modulemap */,
+				83E1A4AE7CE853CCC9D1804F95436FEE /* Pods-TagDesignerTests-acknowledgements.markdown */,
+				38BCD1BC4087448867EADB039EB59842 /* Pods-TagDesignerTests-acknowledgements.plist */,
+				2DE32C7158E0B7CE29745D9D88F6943C /* Pods-TagDesignerTests-dummy.m */,
+				FEA897209E2D972F29B237DF3A1225DD /* Pods-TagDesignerTests-frameworks.sh */,
+				30F05E7F0E26A046B33C0833FD1FFBBF /* Pods-TagDesignerTests-resources.sh */,
+				049A83BD7D32A59932E075746683AD7A /* Pods-TagDesignerTests-umbrella.h */,
+				DC14CFEB43DAD864FC0E054622F69C02 /* Pods-TagDesignerTests.debug.xcconfig */,
+				850E64070C811E1C97C844FDF7E190BD /* Pods-TagDesignerTests.release.xcconfig */,
+			);
+			name = "Pods-TagDesignerTests";
+			path = "Target Support Files/Pods-TagDesignerTests";
+			sourceTree = "<group>";
+		};
+		519EC01B514E60F409BB1E44E50F67FA /* Pods-TagDesignerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C25BBCB1E1DA388137368B46162DAF94 /* Info.plist */,
+				83A4EAA77834FBE4242E0BB0A67ED60E /* Pods-TagDesignerUITests.modulemap */,
+				C2818325AC6EB327002EECF241760CA3 /* Pods-TagDesignerUITests-acknowledgements.markdown */,
+				D9B305CCA5279415004C64B1BEB87EC8 /* Pods-TagDesignerUITests-acknowledgements.plist */,
+				70CCE0318D570075B8C436502FB617E5 /* Pods-TagDesignerUITests-dummy.m */,
+				65BE6CCE859368AD58F2CE59CE248857 /* Pods-TagDesignerUITests-frameworks.sh */,
+				036C328B82A5D54B8E3E0BC6FA4B7D49 /* Pods-TagDesignerUITests-resources.sh */,
+				4BE1D5606E8C810ABD07F29FF38F15EC /* Pods-TagDesignerUITests-umbrella.h */,
+				C13EB3B1A413299139F26F533A4ECD33 /* Pods-TagDesignerUITests.debug.xcconfig */,
+				614C91C0C12794A1EB9FE7973A59412B /* Pods-TagDesignerUITests.release.xcconfig */,
+			);
+			name = "Pods-TagDesignerUITests";
+			path = "Target Support Files/Pods-TagDesignerUITests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				F1C78F9585DEF83568C1DDD945EBD0E5 /* Pods */,
+				EBFE5941DA468DD17F81B083AA9F7D65 /* Products */,
+				D1AB837DD9E3F7ACEF57A3D6F00FDD43 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CB6C2018B9C8BB26C41A7C373E83AB02 /* Pods-TagDesigner */ = {
+			isa = PBXGroup;
+			children = (
+				D4A27578BD21A146FB981C9F2751F232 /* Info.plist */,
+				64C1F07915293FE950926744C119626B /* Pods-TagDesigner.modulemap */,
+				F6F6DC04F519CE37CB41727774E3C0C0 /* Pods-TagDesigner-acknowledgements.markdown */,
+				B6543427BC4097FE6C1C7B46315DB2AE /* Pods-TagDesigner-acknowledgements.plist */,
+				E2C37591034BD66C7CC33675E35E604E /* Pods-TagDesigner-dummy.m */,
+				DE6AF271D484CBF4CCFD111704F741BE /* Pods-TagDesigner-frameworks.sh */,
+				C7AE4BE8F65606A97EA6279F70600D58 /* Pods-TagDesigner-resources.sh */,
+				9F6E42F4834B8E696328A864D3065EA1 /* Pods-TagDesigner-umbrella.h */,
+				7CBB22132164A49A7BE3AD85941E4C9D /* Pods-TagDesigner.debug.xcconfig */,
+				76D1A59C781153D6DED66709A17B9492 /* Pods-TagDesigner.release.xcconfig */,
+			);
+			name = "Pods-TagDesigner";
+			path = "Target Support Files/Pods-TagDesigner";
+			sourceTree = "<group>";
+		};
+		D1AB837DD9E3F7ACEF57A3D6F00FDD43 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CB6C2018B9C8BB26C41A7C373E83AB02 /* Pods-TagDesigner */,
+				35821154BDB1D0CD189611A6D5D33C74 /* Pods-TagDesignerTests */,
+				519EC01B514E60F409BB1E44E50F67FA /* Pods-TagDesignerUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		EBFE5941DA468DD17F81B083AA9F7D65 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F716B366F73E34A45C1E7FA6C57E8D49 /* Canvas.framework */,
+				E0389F608B9FEEE3CADA46E551F4AAC6 /* Pods_TagDesigner.framework */,
+				8190828167463F19B83FFFC5A8134B01 /* Pods_TagDesignerTests.framework */,
+				0D45E957C911D0AA22C762FF1AE5C4E8 /* Pods_TagDesignerUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F1C78F9585DEF83568C1DDD945EBD0E5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F285B768172B5ED6481021F0E86C5E7A /* Canvas */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F285B768172B5ED6481021F0E86C5E7A /* Canvas */ = {
+			isa = PBXGroup;
+			children = (
+				4E33E03C1E1AFCA6D52C90B62E39C5DA /* Canvas.h */,
+				E8A326087CFCD888C0213DBD68A49D0F /* CSAnimation.h */,
+				7FC89F1574C47348BE2F1527672F45D2 /* CSAnimation.m */,
+				91EB2ADE1AE5C643F51DC3359E73DEAC /* CSAnimationView.h */,
+				99959751C2612740ACCA1B3E11234850 /* CSAnimationView.m */,
+				5013096A89CE092D9E04EDEBDA16951F /* CSBlurView.h */,
+				60CC9A45167423E712EAC4FEEFCAD2E6 /* CSBlurView.m */,
+				9AFE6BA08376482CFBD7DED11ED094D1 /* CSNavigationController.h */,
+				1172A05D8D2438B15DA8426567768955 /* CSNavigationController.m */,
+				6C1849EE6BA43C2AD1A005BA493A979E /* UIButton+TCCustomFont.h */,
+				4DCDE261C2ACF324C356FDEDE0B2D651 /* UIButton+TCCustomFont.m */,
+				3142F4D39674D88D4451627EF922B97B /* UILabel+TCCustomFont.h */,
+				8E5C89AD2B6DD0D50AD54428B13AD794 /* UILabel+TCCustomFont.m */,
+				91AB0644D642FEB62CF83732D94B02D3 /* UINavigationBar+TCCustomFont.h */,
+				79ADA6F263E4BD552BC6999FB4F8C03D /* UINavigationBar+TCCustomFont.m */,
+				A3EAEC1BA003A6B423F5FF357C83E1F2 /* UITextField+PlaceholderColor.h */,
+				84535F434D576F73C7801B2AD73C4FAD /* UITextField+PlaceholderColor.m */,
+				19C5BD029D3552E153C6B4316F1AAC78 /* UITextField+TCCustomFont.h */,
+				0BB56C22590CF2F50B7523C39DE92968 /* UITextField+TCCustomFont.m */,
+				3DD24AD2C9573668CA8E4DDE3F3AD754 /* UITextView+TCCustomFont.h */,
+				9CFF4490B3EE7BBC1AED94A8503D2575 /* UITextView+TCCustomFont.m */,
+				1CA89213BFC09E3BA08DB998965F2724 /* Support Files */,
+			);
+			name = Canvas;
+			path = Canvas;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0D3B410210936AF92508C4D6F28A535C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DCC4EF32A2B0B418825960070248BDA /* Pods-TagDesigner-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40CE42737DB1CBBA7484E4211E2A06A9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				978C272B9C17B0F24716D87600778ACA /* Pods-TagDesignerTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		504AC883C54127BA88D0D7F6BD8EF12B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A8F09022E5754C0164B58517B5C53C5 /* Pods-TagDesignerUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		840E726B31B30A3EFBD8C5F5839CF291 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2D3C435370C60A1018320FE3ADEEBB6 /* Canvas-umbrella.h in Headers */,
+				040D874AEAEC4E0A91B1C75952D01EC5 /* Canvas.h in Headers */,
+				0DD7213BAF6205B2E72800AF0357603D /* CSAnimation.h in Headers */,
+				F7251150A6F3BC6662A1548688226AB3 /* CSAnimationView.h in Headers */,
+				4C778137BBA41922618A1EA457F691D1 /* CSBlurView.h in Headers */,
+				B97E4D9EF786C37745533D53E461EEFE /* CSNavigationController.h in Headers */,
+				E088F64BC2C60DCB23A5C84889A66442 /* UIButton+TCCustomFont.h in Headers */,
+				9C5C1641E652073320C3AF57420D76D2 /* UILabel+TCCustomFont.h in Headers */,
+				DCCCA02E94D84C1C07F9F17D90C3EFD8 /* UINavigationBar+TCCustomFont.h in Headers */,
+				CF3FEFAD0F17B31334D7890ECD2B8DFE /* UITextField+PlaceholderColor.h in Headers */,
+				54B06073BC396D015044362E5C58166F /* UITextField+TCCustomFont.h in Headers */,
+				D5B84B208FBA94896DCB2F353F10E105 /* UITextView+TCCustomFont.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1508AFF2E81F8E758004A896635D6D0E /* Pods-TagDesignerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88088B3563DFC5880E3A88D2378F4B12 /* Build configuration list for PBXNativeTarget "Pods-TagDesignerTests" */;
+			buildPhases = (
+				438E9A74BD228FB3DCFC90393E7DC0EC /* Sources */,
+				92C1FB8E4E5A983BA35950D4C3437D78 /* Frameworks */,
+				40CE42737DB1CBBA7484E4211E2A06A9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-TagDesignerTests";
+			productName = "Pods-TagDesignerTests";
+			productReference = 8190828167463F19B83FFFC5A8134B01 /* Pods_TagDesignerTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		1575CB04ED9FE55E5FF3D03C5301EACC /* Pods-TagDesigner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94A708D5841768A89D50079F97915F83 /* Build configuration list for PBXNativeTarget "Pods-TagDesigner" */;
+			buildPhases = (
+				E2105D63C811C5C9C0472E0520691F68 /* Sources */,
+				294AA2F075778E3C5DFF754BE99D9A63 /* Frameworks */,
+				0D3B410210936AF92508C4D6F28A535C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C12A3481F9F09A9632A31FE6D44D07E7 /* PBXTargetDependency */,
+			);
+			name = "Pods-TagDesigner";
+			productName = "Pods-TagDesigner";
+			productReference = E0389F608B9FEEE3CADA46E551F4AAC6 /* Pods_TagDesigner.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3032B5378ED565BCA051EBBD969F4A80 /* Pods-TagDesignerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13004E8A94C402C394AEA949C5B12E03 /* Build configuration list for PBXNativeTarget "Pods-TagDesignerUITests" */;
+			buildPhases = (
+				C47CC9B85EBB66C8647E6C5803C8AACC /* Sources */,
+				21F3B14F7E9F94A8DA3933BE1EB4100D /* Frameworks */,
+				504AC883C54127BA88D0D7F6BD8EF12B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-TagDesignerUITests";
+			productName = "Pods-TagDesignerUITests";
+			productReference = 0D45E957C911D0AA22C762FF1AE5C4E8 /* Pods_TagDesignerUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F6497E6E7D485D7D0D7E0CD8E84BFCD4 /* Canvas */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 596FCB5904178E733A3C78618222D49A /* Build configuration list for PBXNativeTarget "Canvas" */;
+			buildPhases = (
+				B24125255171B4E465A02155C472B6AF /* Sources */,
+				EEA23D4A06ACE11BF9A43711D4934BB5 /* Frameworks */,
+				840E726B31B30A3EFBD8C5F5839CF291 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Canvas;
+			productName = Canvas;
+			productReference = F716B366F73E34A45C1E7FA6C57E8D49 /* Canvas.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = EBFE5941DA468DD17F81B083AA9F7D65 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F6497E6E7D485D7D0D7E0CD8E84BFCD4 /* Canvas */,
+				1575CB04ED9FE55E5FF3D03C5301EACC /* Pods-TagDesigner */,
+				1508AFF2E81F8E758004A896635D6D0E /* Pods-TagDesignerTests */,
+				3032B5378ED565BCA051EBBD969F4A80 /* Pods-TagDesignerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		438E9A74BD228FB3DCFC90393E7DC0EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFAB93886557B67D784132939E696B89 /* Pods-TagDesignerTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B24125255171B4E465A02155C472B6AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6358E1AED1AD2949B366E7EBE95E139 /* Canvas-dummy.m in Sources */,
+				D8A033E57E90F3646D39E7BC566F2067 /* CSAnimation.m in Sources */,
+				3A5D78EF2A1342D0396C1C4AF0451491 /* CSAnimationView.m in Sources */,
+				B39819FF29E15C9E4636B09B4627D46C /* CSBlurView.m in Sources */,
+				6549C61A563E8A6EA19294978B65CDE4 /* CSNavigationController.m in Sources */,
+				5CC3111F76F6E705205BB03C7ED4E248 /* UIButton+TCCustomFont.m in Sources */,
+				BEA3281085FA13AF921E88B84ED5D3F8 /* UILabel+TCCustomFont.m in Sources */,
+				146630EFBC4D2231A50CB9F11A337EC6 /* UINavigationBar+TCCustomFont.m in Sources */,
+				1ED8CB9123077805739DDD87286C23BF /* UITextField+PlaceholderColor.m in Sources */,
+				722043CDFAD463446C6662F706DFB995 /* UITextField+TCCustomFont.m in Sources */,
+				3A5FCCCB61472AD8DFFA13B906E5CB17 /* UITextView+TCCustomFont.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C47CC9B85EBB66C8647E6C5803C8AACC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE7BD8C3D16E41F91681CADA3A913797 /* Pods-TagDesignerUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2105D63C811C5C9C0472E0520691F68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E281073E0AD0376E80E0F3CBC7A323C /* Pods-TagDesigner-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C12A3481F9F09A9632A31FE6D44D07E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Canvas;
+			target = F6497E6E7D485D7D0D7E0CD8E84BFCD4 /* Canvas */;
+			targetProxy = ACB1A2BFD6CB92BD33F315F2BCBF409F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0098E0F0E578A43FC7BD6748A2A9FF4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D85901B60629D7F8E78EF37882024AD /* Canvas.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Canvas/Canvas-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Canvas/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Canvas/Canvas.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Canvas;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		011F3857FCAC7B7456499C20176D2BAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CBB22132164A49A7BE3AD85941E4C9D /* Pods-TagDesigner.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TagDesigner/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TagDesigner/Pods-TagDesigner.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TagDesigner;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		03713C47CE901F8C8D7294DAE83A2035 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 850E64070C811E1C97C844FDF7E190BD /* Pods-TagDesignerTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TagDesignerTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TagDesignerTests/Pods-TagDesignerTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TagDesignerTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		163D87BE96A63549B0EACF1CC31A2E90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		518F80B7C8C4B2391CB50E93053AFC00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC14CFEB43DAD864FC0E054622F69C02 /* Pods-TagDesignerTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TagDesignerTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TagDesignerTests/Pods-TagDesignerTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TagDesignerTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		707B86CFB21B645E37109F39754D4051 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		76619C3FA53E462B3C10551BD16DC713 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D85901B60629D7F8E78EF37882024AD /* Canvas.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Canvas/Canvas-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Canvas/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Canvas/Canvas.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Canvas;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7AE852CF1B3F8D41EF1630ADCCAEECE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 614C91C0C12794A1EB9FE7973A59412B /* Pods-TagDesignerUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TagDesignerUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TagDesignerUITests/Pods-TagDesignerUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TagDesignerUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8853C63F8BF95330BF8F923F371468B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76D1A59C781153D6DED66709A17B9492 /* Pods-TagDesigner.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TagDesigner/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TagDesigner/Pods-TagDesigner.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TagDesigner;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E798BE15D73731A3B27A1C1DF40D3D52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C13EB3B1A413299139F26F533A4ECD33 /* Pods-TagDesignerUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TagDesignerUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TagDesignerUITests/Pods-TagDesignerUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TagDesignerUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13004E8A94C402C394AEA949C5B12E03 /* Build configuration list for PBXNativeTarget "Pods-TagDesignerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E798BE15D73731A3B27A1C1DF40D3D52 /* Debug */,
+				7AE852CF1B3F8D41EF1630ADCCAEECE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				163D87BE96A63549B0EACF1CC31A2E90 /* Debug */,
+				707B86CFB21B645E37109F39754D4051 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		596FCB5904178E733A3C78618222D49A /* Build configuration list for PBXNativeTarget "Canvas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0098E0F0E578A43FC7BD6748A2A9FF4A /* Debug */,
+				76619C3FA53E462B3C10551BD16DC713 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88088B3563DFC5880E3A88D2378F4B12 /* Build configuration list for PBXNativeTarget "Pods-TagDesignerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				518F80B7C8C4B2391CB50E93053AFC00 /* Debug */,
+				03713C47CE901F8C8D7294DAE83A2035 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94A708D5841768A89D50079F97915F83 /* Build configuration list for PBXNativeTarget "Pods-TagDesigner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				011F3857FCAC7B7456499C20176D2BAC /* Debug */,
+				8853C63F8BF95330BF8F923F371468B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

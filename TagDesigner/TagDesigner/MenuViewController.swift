@@ -14,6 +14,7 @@ protocol SlideMenuDelegate {
 
 class MenuViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
+    @IBOutlet weak var profileImage: UIImageView!
     /**
     *  Array to display menu options
     */
@@ -43,6 +44,8 @@ class MenuViewController: UIViewController, UITableViewDataSource, UITableViewDe
         super.viewDidLoad()
         tblMenuOptions.tableFooterView = UIView()
         // Do any additional setup after loading the view.
+        self.profileImage.layer.cornerRadius = self.profileImage.frame.size.width/2
+        self.profileImage.clipsToBounds = true
     }
     
     override func didReceiveMemoryWarning() {
@@ -56,8 +59,10 @@ class MenuViewController: UIViewController, UITableViewDataSource, UITableViewDe
     }
     
     func updateArrayMenuOptions(){
-        arrayMenuOptions.append(["title":"Home", "icon":"HomeIcon"])
-        arrayMenuOptions.append(["title":"Play", "icon":"PlayIcon"])
+        arrayMenuOptions.append(["title":"My Creations", "icon":"camera"])
+        arrayMenuOptions.append(["title":"New", "icon":"plus"])
+        arrayMenuOptions.append(["title":"Settings", "icon":"settings"])
+        arrayMenuOptions.append(["title":"Log Out", "icon":"logOut"])
         
         tblMenuOptions.reloadData()
     }

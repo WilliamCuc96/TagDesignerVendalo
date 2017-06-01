@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1BDBE7BDC116A6F0E300039E /* Pods_TagDesigner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0EC42C0F30BE86AC97EE6D5 /* Pods_TagDesigner.framework */; };
+		798851F41EE07C8E001AF74C /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798851F31EE07C8E001AF74C /* LogInViewController.swift */; };
+		79CFB6F21EE071E6004BCE49 /* NewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79CFB6F11EE071E6004BCE49 /* NewViewController.swift */; };
+		79CFB6F41EE073B5004BCE49 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79CFB6F31EE073B5004BCE49 /* SettingsViewController.swift */; };
 		79F878B31EE0648500516CD7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79F878B21EE0648500516CD7 /* AppDelegate.swift */; };
 		79F878B51EE0648500516CD7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79F878B41EE0648500516CD7 /* ViewController.swift */; };
 		79F878B81EE0648500516CD7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79F878B61EE0648500516CD7 /* Main.storyboard */; };
@@ -16,6 +20,8 @@
 		79F878D31EE0648500516CD7 /* TagDesignerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79F878D21EE0648500516CD7 /* TagDesignerUITests.swift */; };
 		79F878E21EE0676C00516CD7 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79F878E01EE0676C00516CD7 /* BaseViewController.swift */; };
 		79F878E31EE0676C00516CD7 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79F878E11EE0676C00516CD7 /* MenuViewController.swift */; };
+		C51667EA016D8B838435D471 /* Pods_TagDesignerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48028B2B9D8EB8C6556CA937 /* Pods_TagDesignerTests.framework */; };
+		C9D775DF7CFAD0F214F3C841 /* Pods_TagDesignerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CD1EAC0D1667FD7C272E497 /* Pods_TagDesignerUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +42,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3A3AE1D6E5066A728CF014F3 /* Pods-TagDesignerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TagDesignerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TagDesignerTests/Pods-TagDesignerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3DDF3DF572A8721E17C113D1 /* Pods-TagDesigner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TagDesigner.release.xcconfig"; path = "Pods/Target Support Files/Pods-TagDesigner/Pods-TagDesigner.release.xcconfig"; sourceTree = "<group>"; };
+		48028B2B9D8EB8C6556CA937 /* Pods_TagDesignerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TagDesignerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		571233A5AC8D1CA2C134CC6C /* Pods-TagDesignerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TagDesignerUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TagDesignerUITests/Pods-TagDesignerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5AE797994EE32B3F37FAE8C8 /* Pods-TagDesignerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TagDesignerUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TagDesignerUITests/Pods-TagDesignerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		798851F31EE07C8E001AF74C /* LogInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		79CFB6F11EE071E6004BCE49 /* NewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewViewController.swift; sourceTree = "<group>"; };
+		79CFB6F31EE073B5004BCE49 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		79F878AF1EE0648500516CD7 /* TagDesigner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TagDesigner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		79F878B21EE0648500516CD7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		79F878B41EE0648500516CD7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -51,6 +65,10 @@
 		79F878D41EE0648500516CD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		79F878E01EE0676C00516CD7 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		79F878E11EE0676C00516CD7 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		8CD1EAC0D1667FD7C272E497 /* Pods_TagDesignerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TagDesignerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A820360522BC5DCD06AB4395 /* Pods-TagDesignerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TagDesignerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TagDesignerTests/Pods-TagDesignerTests.release.xcconfig"; sourceTree = "<group>"; };
+		F0EC42C0F30BE86AC97EE6D5 /* Pods_TagDesigner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TagDesigner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBB913EE5EAE64595F84D9D5 /* Pods-TagDesigner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TagDesigner.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TagDesigner/Pods-TagDesigner.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BDBE7BDC116A6F0E300039E /* Pods_TagDesigner.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C51667EA016D8B838435D471 /* Pods_TagDesignerTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +92,39 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9D775DF7CFAD0F214F3C841 /* Pods_TagDesignerUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		511DD4BD52B597EABE95AFB5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FBB913EE5EAE64595F84D9D5 /* Pods-TagDesigner.debug.xcconfig */,
+				3DDF3DF572A8721E17C113D1 /* Pods-TagDesigner.release.xcconfig */,
+				3A3AE1D6E5066A728CF014F3 /* Pods-TagDesignerTests.debug.xcconfig */,
+				A820360522BC5DCD06AB4395 /* Pods-TagDesignerTests.release.xcconfig */,
+				5AE797994EE32B3F37FAE8C8 /* Pods-TagDesignerUITests.debug.xcconfig */,
+				571233A5AC8D1CA2C134CC6C /* Pods-TagDesignerUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		79CFB6F01EE071AC004BCE49 /* Controlls */ = {
+			isa = PBXGroup;
+			children = (
+				79F878B41EE0648500516CD7 /* ViewController.swift */,
+				79F878E01EE0676C00516CD7 /* BaseViewController.swift */,
+				79F878E11EE0676C00516CD7 /* MenuViewController.swift */,
+				79CFB6F11EE071E6004BCE49 /* NewViewController.swift */,
+				79CFB6F31EE073B5004BCE49 /* SettingsViewController.swift */,
+				798851F31EE07C8E001AF74C /* LogInViewController.swift */,
+			);
+			name = Controlls;
+			sourceTree = "<group>";
+		};
 		79F878A61EE0648500516CD7 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +132,8 @@
 				79F878C61EE0648500516CD7 /* TagDesignerTests */,
 				79F878D11EE0648500516CD7 /* TagDesignerUITests */,
 				79F878B01EE0648500516CD7 /* Products */,
+				511DD4BD52B597EABE95AFB5 /* Pods */,
+				95B17ED855D301EE77747C6A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,10 +150,8 @@
 		79F878B11EE0648500516CD7 /* TagDesigner */ = {
 			isa = PBXGroup;
 			children = (
+				79CFB6F01EE071AC004BCE49 /* Controlls */,
 				79F878B21EE0648500516CD7 /* AppDelegate.swift */,
-				79F878B41EE0648500516CD7 /* ViewController.swift */,
-				79F878E01EE0676C00516CD7 /* BaseViewController.swift */,
-				79F878E11EE0676C00516CD7 /* MenuViewController.swift */,
 				79F878B61EE0648500516CD7 /* Main.storyboard */,
 				79F878B91EE0648500516CD7 /* Assets.xcassets */,
 				79F878BB1EE0648500516CD7 /* LaunchScreen.storyboard */,
@@ -131,6 +178,16 @@
 			path = TagDesignerUITests;
 			sourceTree = "<group>";
 		};
+		95B17ED855D301EE77747C6A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F0EC42C0F30BE86AC97EE6D5 /* Pods_TagDesigner.framework */,
+				48028B2B9D8EB8C6556CA937 /* Pods_TagDesignerTests.framework */,
+				8CD1EAC0D1667FD7C272E497 /* Pods_TagDesignerUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,9 +195,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 79F878D71EE0648500516CD7 /* Build configuration list for PBXNativeTarget "TagDesigner" */;
 			buildPhases = (
+				4262796ABB410FFED5269E33 /* [CP] Check Pods Manifest.lock */,
 				79F878AB1EE0648500516CD7 /* Sources */,
 				79F878AC1EE0648500516CD7 /* Frameworks */,
 				79F878AD1EE0648500516CD7 /* Resources */,
+				1AF1E43537B28D7A7A0336D6 /* [CP] Embed Pods Frameworks */,
+				0A3C87C3E5573DE0F843D3F6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -155,9 +215,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 79F878DA1EE0648500516CD7 /* Build configuration list for PBXNativeTarget "TagDesignerTests" */;
 			buildPhases = (
+				8F21F3A819CB57A797D95D14 /* [CP] Check Pods Manifest.lock */,
 				79F878BF1EE0648500516CD7 /* Sources */,
 				79F878C01EE0648500516CD7 /* Frameworks */,
 				79F878C11EE0648500516CD7 /* Resources */,
+				6B928F4493A7A06C9DB93BE7 /* [CP] Embed Pods Frameworks */,
+				6425FB80A6421AA144F82B10 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -173,9 +236,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 79F878DD1EE0648500516CD7 /* Build configuration list for PBXNativeTarget "TagDesignerUITests" */;
 			buildPhases = (
+				3A011D799AF8AE75B95CEC56 /* [CP] Check Pods Manifest.lock */,
 				79F878CA1EE0648500516CD7 /* Sources */,
 				79F878CB1EE0648500516CD7 /* Frameworks */,
 				79F878CC1EE0648500516CD7 /* Resources */,
+				43E3BA058358C9087439E4B8 /* [CP] Embed Pods Frameworks */,
+				F8C3FFF8C9E928E63293A75C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -263,6 +329,144 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0A3C87C3E5573DE0F843D3F6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TagDesigner/Pods-TagDesigner-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1AF1E43537B28D7A7A0336D6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TagDesigner/Pods-TagDesigner-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3A011D799AF8AE75B95CEC56 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4262796ABB410FFED5269E33 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		43E3BA058358C9087439E4B8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TagDesignerUITests/Pods-TagDesignerUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6425FB80A6421AA144F82B10 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TagDesignerTests/Pods-TagDesignerTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6B928F4493A7A06C9DB93BE7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TagDesignerTests/Pods-TagDesignerTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8F21F3A819CB57A797D95D14 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F8C3FFF8C9E928E63293A75C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TagDesignerUITests/Pods-TagDesignerUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		79F878AB1EE0648500516CD7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -270,8 +474,11 @@
 			files = (
 				79F878B51EE0648500516CD7 /* ViewController.swift in Sources */,
 				79F878B31EE0648500516CD7 /* AppDelegate.swift in Sources */,
+				79CFB6F21EE071E6004BCE49 /* NewViewController.swift in Sources */,
+				798851F41EE07C8E001AF74C /* LogInViewController.swift in Sources */,
 				79F878E21EE0676C00516CD7 /* BaseViewController.swift in Sources */,
 				79F878E31EE0676C00516CD7 /* MenuViewController.swift in Sources */,
+				79CFB6F41EE073B5004BCE49 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -423,6 +630,7 @@
 		};
 		79F878D81EE0648500516CD7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FBB913EE5EAE64595F84D9D5 /* Pods-TagDesigner.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = PCSQWGA23G;
@@ -436,6 +644,7 @@
 		};
 		79F878D91EE0648500516CD7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3DDF3DF572A8721E17C113D1 /* Pods-TagDesigner.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = PCSQWGA23G;
@@ -449,6 +658,7 @@
 		};
 		79F878DB1EE0648500516CD7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A3AE1D6E5066A728CF014F3 /* Pods-TagDesignerTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -464,6 +674,7 @@
 		};
 		79F878DC1EE0648500516CD7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A820360522BC5DCD06AB4395 /* Pods-TagDesignerTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -479,6 +690,7 @@
 		};
 		79F878DE1EE0648500516CD7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5AE797994EE32B3F37FAE8C8 /* Pods-TagDesignerUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = PCSQWGA23G;
@@ -493,6 +705,7 @@
 		};
 		79F878DF1EE0648500516CD7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 571233A5AC8D1CA2C134CC6C /* Pods-TagDesignerUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = PCSQWGA23G;
@@ -524,6 +737,7 @@
 				79F878D91EE0648500516CD7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		79F878DA1EE0648500516CD7 /* Build configuration list for PBXNativeTarget "TagDesignerTests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +746,7 @@
 				79F878DC1EE0648500516CD7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		79F878DD1EE0648500516CD7 /* Build configuration list for PBXNativeTarget "TagDesignerUITests" */ = {
 			isa = XCConfigurationList;
@@ -540,6 +755,7 @@
 				79F878DF1EE0648500516CD7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
