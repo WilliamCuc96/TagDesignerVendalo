@@ -42,6 +42,12 @@ class BaseViewController: UIViewController, SlideMenuDelegate {
             self.openViewControllerBasedOnIdentifier("Settings")
             
             break
+        /*case 3:
+            print("LogOut\n", terminator: "")
+            
+            self.openViewControllerBasedOnIdentifier("Login")
+            
+            break*/
         default:
             print("default\n", terminator: "")
         }

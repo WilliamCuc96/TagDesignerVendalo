@@ -12,6 +12,7 @@ class NewViewController: BaseViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.title = "New"
 
         // Do any additional setup after loading the view.
     }

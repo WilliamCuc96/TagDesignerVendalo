@@ -8,7 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		1BDBE7BDC116A6F0E300039E /* Pods_TagDesigner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0EC42C0F30BE86AC97EE6D5 /* Pods_TagDesigner.framework */; };
+		79607A101EE20CFF00317442 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 79607A0F1EE20CFF00317442 /* GoogleService-Info.plist */; };
 		798851F41EE07C8E001AF74C /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798851F31EE07C8E001AF74C /* LogInViewController.swift */; };
+		798BFDC21EE75BB7007BF9AC /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 798BFDC11EE75BB7007BF9AC /* AdSupport.framework */; };
 		79CFB6F21EE071E6004BCE49 /* NewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79CFB6F11EE071E6004BCE49 /* NewViewController.swift */; };
 		79CFB6F41EE073B5004BCE49 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79CFB6F31EE073B5004BCE49 /* SettingsViewController.swift */; };
 		79F878B31EE0648500516CD7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79F878B21EE0648500516CD7 /* AppDelegate.swift */; };
@@ -47,7 +49,11 @@
 		48028B2B9D8EB8C6556CA937 /* Pods_TagDesignerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TagDesignerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		571233A5AC8D1CA2C134CC6C /* Pods-TagDesignerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TagDesignerUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TagDesignerUITests/Pods-TagDesignerUITests.release.xcconfig"; sourceTree = "<group>"; };
 		5AE797994EE32B3F37FAE8C8 /* Pods-TagDesignerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TagDesignerUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TagDesignerUITests/Pods-TagDesignerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		79607A0F1EE20CFF00317442 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		79607A291EE21D0D00317442 /* TagDesigner-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TagDesigner-Bridging-Header.h"; sourceTree = "<group>"; };
 		798851F31EE07C8E001AF74C /* LogInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		798BFDC01EE7111F007BF9AC /* TagDesigner.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TagDesigner.entitlements; sourceTree = "<group>"; };
+		798BFDC11EE75BB7007BF9AC /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
 		79CFB6F11EE071E6004BCE49 /* NewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewViewController.swift; sourceTree = "<group>"; };
 		79CFB6F31EE073B5004BCE49 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		79F878AF1EE0648500516CD7 /* TagDesigner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TagDesigner.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -76,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				798BFDC21EE75BB7007BF9AC /* AdSupport.framework in Frameworks */,
 				1BDBE7BDC116A6F0E300039E /* Pods_TagDesigner.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -150,12 +157,15 @@
 		79F878B11EE0648500516CD7 /* TagDesigner */ = {
 			isa = PBXGroup;
 			children = (
+				798BFDC01EE7111F007BF9AC /* TagDesigner.entitlements */,
 				79CFB6F01EE071AC004BCE49 /* Controlls */,
 				79F878B21EE0648500516CD7 /* AppDelegate.swift */,
 				79F878B61EE0648500516CD7 /* Main.storyboard */,
 				79F878B91EE0648500516CD7 /* Assets.xcassets */,
 				79F878BB1EE0648500516CD7 /* LaunchScreen.storyboard */,
 				79F878BE1EE0648500516CD7 /* Info.plist */,
+				79607A0F1EE20CFF00317442 /* GoogleService-Info.plist */,
+				79607A291EE21D0D00317442 /* TagDesigner-Bridging-Header.h */,
 			);
 			path = TagDesigner;
 			sourceTree = "<group>";
@@ -181,6 +191,7 @@
 		95B17ED855D301EE77747C6A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				798BFDC11EE75BB7007BF9AC /* AdSupport.framework */,
 				F0EC42C0F30BE86AC97EE6D5 /* Pods_TagDesigner.framework */,
 				48028B2B9D8EB8C6556CA937 /* Pods_TagDesignerTests.framework */,
 				8CD1EAC0D1667FD7C272E497 /* Pods_TagDesignerUITests.framework */,
@@ -266,7 +277,13 @@
 					79F878AE1EE0648500516CD7 = {
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = PCSQWGA23G;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 0;
+							};
+						};
 					};
 					79F878C21EE0648500516CD7 = {
 						CreatedOnToolsVersion = 8.3.2;
@@ -308,6 +325,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				79F878BD1EE0648500516CD7 /* LaunchScreen.storyboard in Resources */,
+				79607A101EE20CFF00317442 /* GoogleService-Info.plist in Resources */,
 				79F878BA1EE0648500516CD7 /* Assets.xcassets in Resources */,
 				79F878B81EE0648500516CD7 /* Main.storyboard in Resources */,
 			);
@@ -633,11 +651,18 @@
 			baseConfigurationReference = FBB913EE5EAE64595F84D9D5 /* Pods-TagDesigner.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = PCSQWGA23G;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TagDesigner",
+				);
 				INFOPLIST_FILE = TagDesigner/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.TitonSoft.TagDesigner;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TagDesigner/TagDesigner-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -647,11 +672,17 @@
 			baseConfigurationReference = 3DDF3DF572A8721E17C113D1 /* Pods-TagDesigner.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = PCSQWGA23G;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TagDesigner",
+				);
 				INFOPLIST_FILE = TagDesigner/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.TitonSoft.TagDesigner;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TagDesigner/TagDesigner-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
