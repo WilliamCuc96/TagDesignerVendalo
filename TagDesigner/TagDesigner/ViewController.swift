@@ -14,8 +14,8 @@ class ViewController: BaseViewController, UIImagePickerControllerDelegate, UINav
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        self.add.layer.cornerRadius = self.add.frame.size.width/2
-        self.add.clipsToBounds = true
+        //self.add.layer.cornerRadius = self.add.frame.size.width/2
+        //self.add.clipsToBounds = true
         self.addSlideMenuButton()
         self.title = "My Creations"
     }
