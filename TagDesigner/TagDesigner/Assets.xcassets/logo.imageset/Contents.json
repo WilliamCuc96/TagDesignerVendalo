@@ -2,17 +2,17 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "tag_design.png",
+      "filename" : "tag_designer.png",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
-      "filename" : "tag_design-1.png",
+      "filename" : "tag_designer-1.png",
       "scale" : "2x"
     },
     {
       "idiom" : "universal",
-      "filename" : "tag_design-2.png",
+      "filename" : "tag_designer-2.png",
       "scale" : "3x"
     }
   ],
