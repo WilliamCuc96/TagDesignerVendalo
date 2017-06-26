@@ -8,13 +8,9 @@ target 'TagDesigner' do
   # Pods for TagDesigner
 	pod 'Canvas'
     pod 'Firebase/Auth'
-    pod 'Firebase/Core'
-    pod 'FacebookLogin'
-    pod 'Firebase'
     pod 'FBSDKCoreKit'
     pod 'FBSDKShareKit'
     pod 'FBSDKLoginKit'
-
   target 'TagDesignerTests' do
     inherit! :search_paths
     # Pods for testing

@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		15E11E341EF464C60036CB55 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 15E11E331EF464C60036CB55 /* GoogleService-Info.plist */; };
 		1BDBE7BDC116A6F0E300039E /* Pods_TagDesigner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0EC42C0F30BE86AC97EE6D5 /* Pods_TagDesigner.framework */; };
-		79607A101EE20CFF00317442 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 79607A0F1EE20CFF00317442 /* GoogleService-Info.plist */; };
 		798851F41EE07C8E001AF74C /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798851F31EE07C8E001AF74C /* LogInViewController.swift */; };
 		798BFDC21EE75BB7007BF9AC /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 798BFDC11EE75BB7007BF9AC /* AdSupport.framework */; };
 		79CFB6F21EE071E6004BCE49 /* NewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79CFB6F11EE071E6004BCE49 /* NewViewController.swift */; };
@@ -44,12 +44,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		15E11E331EF464C60036CB55 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		3A3AE1D6E5066A728CF014F3 /* Pods-TagDesignerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TagDesignerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TagDesignerTests/Pods-TagDesignerTests.debug.xcconfig"; sourceTree = "<group>"; };
 		3DDF3DF572A8721E17C113D1 /* Pods-TagDesigner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TagDesigner.release.xcconfig"; path = "Pods/Target Support Files/Pods-TagDesigner/Pods-TagDesigner.release.xcconfig"; sourceTree = "<group>"; };
 		48028B2B9D8EB8C6556CA937 /* Pods_TagDesignerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TagDesignerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		571233A5AC8D1CA2C134CC6C /* Pods-TagDesignerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TagDesignerUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TagDesignerUITests/Pods-TagDesignerUITests.release.xcconfig"; sourceTree = "<group>"; };
 		5AE797994EE32B3F37FAE8C8 /* Pods-TagDesignerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TagDesignerUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TagDesignerUITests/Pods-TagDesignerUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		79607A0F1EE20CFF00317442 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		79607A291EE21D0D00317442 /* TagDesigner-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TagDesigner-Bridging-Header.h"; sourceTree = "<group>"; };
 		798851F31EE07C8E001AF74C /* LogInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
 		798BFDC01EE7111F007BF9AC /* TagDesigner.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TagDesigner.entitlements; sourceTree = "<group>"; };
@@ -164,8 +164,8 @@
 				79F878B91EE0648500516CD7 /* Assets.xcassets */,
 				79F878BB1EE0648500516CD7 /* LaunchScreen.storyboard */,
 				79F878BE1EE0648500516CD7 /* Info.plist */,
-				79607A0F1EE20CFF00317442 /* GoogleService-Info.plist */,
 				79607A291EE21D0D00317442 /* TagDesigner-Bridging-Header.h */,
+				15E11E331EF464C60036CB55 /* GoogleService-Info.plist */,
 			);
 			path = TagDesigner;
 			sourceTree = "<group>";
@@ -325,7 +325,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				79F878BD1EE0648500516CD7 /* LaunchScreen.storyboard in Resources */,
-				79607A101EE20CFF00317442 /* GoogleService-Info.plist in Resources */,
+				15E11E341EF464C60036CB55 /* GoogleService-Info.plist in Resources */,
 				79F878BA1EE0648500516CD7 /* Assets.xcassets in Resources */,
 				79F878B81EE0648500516CD7 /* Main.storyboard in Resources */,
 			);
